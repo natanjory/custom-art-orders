@@ -1,4 +1,5 @@
 import Header from "./components/Header"
+import ArtistPresentation from "./components/ArtistPresentation"
 import ProductCatalog from "./components/ProductCatalog"
 import OrderForm from "./components/OrderForm"
 import Gallery from "./components/Gallery"
@@ -10,6 +11,7 @@ export default function Home() {
     <div className="min-h-screen bg-gradient-to-b from-pink-100 to-purple-100">
       <Header />
       <main className="container mx-auto px-4 py-8">
+        <ArtistPresentation />
         <ProductCatalog />
         <OrderForm />
         <Gallery />
