@@ -12,7 +12,7 @@ const galleryItems = [
 export default function Gallery() {
   return (
     <section id="gallery" className="my-12">
-      <h2 className="text-3xl font-bold text-center mb-8 text-purple-800">Galeria de Exemplos</h2>
+      <h2 className="text-3xl font-bold text-center mb-8 text-black-800">Galeria de Exemplos</h2>
       <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
         {galleryItems.map((item, index) => (
           <div key={index} className="relative aspect-square">

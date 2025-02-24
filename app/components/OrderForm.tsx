@@ -55,7 +55,7 @@ export default function OrderForm() {
 
   return (
     <section id="order" className="my-12">
-      <h2 className="text-3xl font-bold text-center mb-8 text-purple-800">Faça sua Encomenda</h2>
+      <h2 className="text-3xl font-bold text-center mb-8 text-black-800">Faça sua Encomenda</h2>
       <Form {...form}>
         <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8 bg-white p-6 rounded-lg shadow-md">
           <FormField

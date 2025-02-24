@@ -21,7 +21,7 @@ const products = [
 export default function ProductCatalog() {
   return (
     <section id="catalog" className="my-12">
-      <h2 className="text-3xl font-bold text-center mb-8 text-purple-800">Nosso Catálogo</h2>
+      <h2 className="text-3xl font-bold text-center mb-8 text-black-800">Nosso Catálogo</h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         {products.map((product, index) => (
           <Card key={index} className="bg-white shadow-lg hover:shadow-xl transition-shadow duration-300">

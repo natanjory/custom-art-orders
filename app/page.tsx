@@ -5,6 +5,7 @@ import OrderForm from "./components/OrderForm"
 import Gallery from "./components/Gallery"
 import Testimonials from "./components/Testimonials"
 import Footer from "./components/Footer"
+import CatalogSummary from "./components/CatalogSummary"
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Header />
       <main className="container mx-auto px-4 py-8">
         <ArtistPresentation />
+        <CatalogSummary />
         <ProductCatalog />
         <OrderForm />
         <Gallery />
