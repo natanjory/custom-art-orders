@@ -22,7 +22,7 @@ export default function ArtistPresentation() {
           <div className="md:w-1/2 flex justify-center">
             <div className="w-48 md:w-64 h-auto">
               <img
-                src="/flower.svg"
+                src="/flower_presentation.png"
                 alt="Flor ilustrativa"
                 className="w-full h-full object-contain"
               />
